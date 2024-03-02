@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.container1 {
+  border: 1px solid #64748b;
+
+  padding: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .container1 {
+    width: 600px;
+    height: 150px;
+  }
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.close-icon-style {
+  height: 25px;
+  width: 25px;
+}

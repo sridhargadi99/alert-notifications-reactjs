@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    align-items: center;
+  }
+}
+.heading-style {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #0f172a;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading-style {
+    font-size: 40px;
+  }
+}
+.notification-container {
+  display: flex;
+}
+.notification-content-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.icon-style {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .icon-style {
+    height: 35px;
+    width: 35px;
+  }
+}
+.status-style {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .status-style {
+    font-size: 27px;
+  }
+}
+.description-style {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 0px;
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .description-style {
+    width: 400px;
+    font-size: 20px;
+  }
+}
+.status-style1 {
+  color: #2dca73;
+}
+.status-style2 {
+  color: #ff0b37;
+}
+.status-style3 {
+  color: #ffb800;
+}
+.status-style4 {
+  color: #0f81e0;
+}
